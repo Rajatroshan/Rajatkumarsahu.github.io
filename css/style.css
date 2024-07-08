@@ -166,7 +166,10 @@ figure {
 
 img {
   vertical-align: middle;
-  border-style: none; }
+  border-style: none; 
+  position: relative;
+  top: -10px; /* Adjust this value to move the image up or down */
+}
 
 svg {
   overflow: hidden;
@@ -5492,7 +5495,7 @@ button.bg-dark:focus {
   border-radius: 0.2rem !important; }
 
 .rounded {
-  border-radius: 0.25rem !important; }
+  border-radius: 2rem !important; }
 
 .rounded-top {
   border-top-left-radius: 0.25rem !important;
